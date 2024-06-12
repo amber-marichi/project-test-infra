@@ -19,7 +19,7 @@ will have the same outcome.
 
 
 def find_winners(matches: list[list[int]]) -> list[list[int]]:
-    'Solution for 2225. Find Players With Zero or One Losses'
+    '2225. Find Players With Zero or One Losses solution'
     winners, onnes, outs = set(), set(), set()
     for win, lost in matches:
         if win not in outs and win not in onnes:
