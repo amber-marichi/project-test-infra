@@ -34,4 +34,4 @@ def find_winners(matches: list[list[int]]) -> list[list[int]]:
         else:
             onnes.add(lost)
 
-    return [sorted(list(winners)), sorted(list(onnes), reverse=True)]
+    return [sorted(list(winners)), sorted(list(onnes))]
